@@ -17,7 +17,9 @@
   },
   "packageManager": "npm@10.4.0",
   "workspaces": [
-    "apps/*",
     "packages/*"
-  ]
+  ],
+  "dependencies": {
+    "express": "^4.21.1"
+  }
 }
